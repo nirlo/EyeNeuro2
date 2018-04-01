@@ -1,0 +1,49 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="pe_paragraph">
+        <item name="android:layout_marginBottom">20dp</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:lineSpacingExtra">5dp</item>
+    </style>
+
+    <style name="pe_tip" parent="pe_paragraph">
+        <item name="android:textColor">#ff887e</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="pe_title">
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">40dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">30dp</item>
+    </style>
+
+    <style name="pe_subheading" parent="pe_paragraph">
+        <item name="android:textStyle">italic|bold</item>
+        <item name="android:layout_marginTop">30dp</item>
+        <item name="android:layout_marginBottom">30dp</item>
+    </style>
+
+    <style name="pe_figure" parent="pe_paragraph">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

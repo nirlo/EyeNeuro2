@@ -1,0 +1,292 @@
+<resources>
+    <string name="app_name">EyeNeuro</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="afferent_title">Afferent System</string>
+    <string name="afferent_a">The afferent system is the information travelling from outside sensory inputs into the brain. They are the fibers that arrive at the destination (brain). This system is tested through the following 5 examinations. Each one determines whether or not there is an issue with information being sent from the environment (eyes) to the brain. </string>
+    <string name="afferent_b">Visual Acuity</string>
+    <string name="afferent_d">A Snellen chart is the most common method of visual acuity measurement. This chart is placed at a finite distance for all patients. One eye is tested at a time (the other is covered with a paddle). Patient is asked to read a series of letters on a given line, if they are able to identify >50% of the letters, patient is asked to read a line below, this is repeated until patient can no longer identify >50% of the letters</string>
+    <string name="afferent_e">We aim to test for Best Corrected Visual Acuity</string>
+    <string name="afferent_f">Tip- have the patient bring their glasses or use a pinhole to correct for refractive error</string>
+    <string name="afferent_g">Test both with and without corrective lenses</string>
+    <string name="afferent_h">Tip- test right eye first (standard convention)</string>
+    <string name="afferent_i">Test one eye at a time (cover the other)\n20/20 is normal visual acuity</string>
+    <string name="afferent_j">How to record visual acuity:\nNumerator = equivalent of the testing distance from eye to chart being used\nDenominator = distance at which a subject with normal vision can read the same figure on chart</string>
+    <string name="afferent_k">Figure 1: Notation for visual acuity. Right eye is always written above the left eye.</string>
+    <string name="afferent_l">Patient must be able to read >50% of the items on the line (if they miss more than 50%, ask them to read a larger line)\n\n\t- If patient misses 2 letters on 20/20 line (noted with a \n\t-2 in superscript)\n\t- If a patient misses 3 letters on 20/40 line (missed \n\t>50% of letters) this is noted at 20/60+2</string>
+    <string name="afferent_m">Tip: If the pinhole improves testing – likely patient has element of refractive error</string>
+    <string name="afferent_n">Figure 2: Common notations used for visual acuity</string>
+    <string name="afferent_o">For further explanation on visual acuity examination techniques, please see the video below.</string>
+    <string name="afferent_p">Color Vision</string>
+    <string name="afferent_q">Tip: color vision impairment alludes to optic nerve involvement (very important in neuro-ophthalmology cases)</string>
+    <string name="afferent_r">Color vision is commonly tested using Ishihara Color plates. The patient is asked to cover one eye and then read the numbers in the book as quickly as they can. The examiner sits in front of the patient flipping through the book noting how many correct and incorrect responses. The examiner will also note the time it took for the patient to identify the numbers (slow or quick). This is repeated on the other eye.</string>
+    <string name="afferent_s">Tip: Document number of correct plates and speed of recognition. Asymmetry in number of correct or speed of recognition can be a significant finding</string>
+    <string name="afferent_t">Confrontational Visual Fields</string>
+    <string name="afferent_u">o Examiner sits eye level with the patient approximately 1 meter away. Ask the patient to cover one eye and fixate on your nose with the other eye.
+        \n\n\t- First ask the patient if they can view the examiners full \n\tface while fixating on the nose (are there any gross parts \n\tmissing, if so where in the field is the patient noticing \n\tthe deficit).
+        \n\t- Test single quadrants: while fixating on examiners nose, \n\tstationary fingers presented one at a time in each of \n\t4 quadrants (Tip: keep it at 1, 2 or 5 fingers for \n\teach of identification), repeat on other eye
+        \n\t\t• If a defect is noted, move the finger of the defective \n\t\tquadrant slowly to the midline and ask the patient\n\t\twhen they are able to see your finger and identify the \n\t\tnumber of fingers held up
+        \n\t\t• You can repeat the procedure along the horizontal \n\t\tmedian
+        \n\t\t• This will help to grossly map the scotoma (a more \n\t\taccurate representation will be obtained during visual \n\t\tfield testing)
+        \n\t- Test double quadrants: while fixating on examiners \n\tnose, hold 1 or 2 fingers up in 2 different quadrants. \n\tPatient is asked to total the numbers of fingers seen \n\tin both quadrants
+        \n\t- This test can help map out homonymous deficits</string>
+    <string name="afferent_v">Tip: any field deficits respecting the vertical midline allude to chiasmal or retrochiasmal pathology</string>
+    <string name="afferent_w">Tip: any field deficits that respect the horizontal midline allude to involvement of nerve fiber layer or occlusion of retinal vessel branch</string>
+    <string name="afferent_x">Figure 3: Afferent visual pathway. Lesions and associated defects.</string>
+    <string name="afferent_y">Relative Afferent Pupillary defect</string>
+    <string name="afferent_z">Red/Light Desaturation</string>
+    <string name="afferent_aa">Tip: individual with optic nerve disease perceive decreased saturation of colors</string>
+    <string name="afferent_bb">A bright red stimulus is presented in both eyes (one eye at a time). At that point, the patient is asked whether the color is richer/brighter/duller or darker than the other eye. Any differences can allude to defective optic nerve function.</string>
+    <string name="afferent_cc">Figure 4: a) normal, b) patient with optic nerve disease</string>
+    <string name="afferent_dd">\n\t- Refer to Pupils section for full examination</string>
+
+
+    <string name="pupils_title">Pupils</string>
+    <string name="pupils_a">Pupils, while small, can provide the examiner with a wide variety of information. There is a unique pathway between the two eyes and the brain which results in synchronous responses of the pupils under normal conditions. Many neuro-ophthalmological disorders can presents with ansicora (difference in pupil size).</string>
+    <string name="pupils_b">Tip: avoid dilating pupils until the pupil assessment is completed. Once dilated, you will not be able to assess for pupil function until the drops wear off.</string>
+    <string name="pupils_c">Figure 5: Afferent and efferent pupillary pathways.</string>
+    <string name="pupils_d">Afferent pathway – optic nerves through optic tract into visual cortex
+\nEfferent pathway – PNS and SNS input to iris muscles</string>
+    <string name="pupils_e">PNS pathway: light shone to one eye, information relayed through optic nerve (pupillary fibers), decussate at chiasm and enter midbrain, result in constriction of both pupils.</string>
+    <string name="pupils_f">SNS pathway: pain and fear = pupillary dilation bilaterally.</string>
+    <string name="pupils_g">Near Reflex pathway: pupillary constriction when patient is focusing on something near</string>
+    <string name="pupils_h">Pupils are controlled by 2 muscles, the sphincter muscle and the dilator muscle.
+        \n\t- Sphincter muscle supplied by cholinergic fibers and \n\tPNS (Cranial nerve 3)
+        \n\t- Pupillary dilator supplied by adrenergic fibers of SNS</string>
+    <string name="pupils_i">Tip – have patient fixate on object in distance to minimize accommodation and miosis</string>
+    <string name="pupils_j">Size (mm)</string>
+    <string name="pupils_k">Tip: Any difference >2mm is a pathological anisocoria (this looks at the efferent pathway). Physiologic aniscoria is when difference in pupil size is 1mm and is the same in dim and light conditions. In physiologic aniscoria the pupillary reflexes are intact and brisk.</string>
+    <string name="pupils_l">Shape</string>
+    <string name="pupils_m">Light reflex: (direct and consentual)</string>
+    <string name="pupils_n">Consensual Reflex: ask patient to fixate on a target in the distance. Light is shone on the pupil and the reaction of the other pupil is observed. This will normally be brisk constriction of the non-illuminated pupil due to the pupillary pathway.</string>
+    <string name="pupils_o">Swinging Flashlight test</string>
+    <string name="pupils_p">Tip: a positive RAPD indicates a unilateral or asymmetric damage in the visual pathway. A negative RAPD may indicate symmetric disturbance (or a normal exam).</string>
+    <string name="pupils_q">Reverse RAPD: done if there is only one normal pupil. Continue with the swinging flashlight test, however only look at the one pupil to see if there are any signs of dilation.</string>
+    <string name="pupils_r">Near Reflex Test</string>
+    <string name="pupils_s">Tip: the pupillary near reflex should be normal if the light reflex is normal, but the opposite is not true.</string>
+    <string name="pupils_t">Light Near Dissociation</string>
+    <string name="pupils_u">Figure 5: Afferent and efferent pupillary pathways.</string>
+    <string name="pupils_v">Measure pupil size in mm in both bright and dim settings (this is important if the patient has anisocoria). Examiner can use a ruler or pupilometer to do so.</string>
+    <string name="pupils_w">Direct reflex: ask patient to fixate on a target in the distance. Light is shone on the pupil and the reaction in that pupil in observed. Normal reaction would be brisk constriction.</string>
+    <string name="pupils_x">Assess the shape of both pupils. Are they round and circular, any signs of irregularities should be further explored (synechiae, traumatic mydriasis).</string>
+    <string name="pupils_y">Tip: shine light from temporal region inwards to avoid illuminating pupils beforehand</string>
+    <string name="pupils_z">Testing for an RAPD (relative afferent pupillary defect). Examiner briskly shines light from one eye to the other (crossing the midline moving back and forth). A normal response is for the pupils to constrict and remain so as the light moves back and forth between the two eyes. If one pupil dilates and then constricts as the light is moved, that is a relative afferent pupillary defect.</string>
+    <string name="pupils_aa">Have the person look at a near target, the following responses should be observed
+        \n\t- Accommodation (change in lens shape)
+        \n\t- Convergence (eyes moving towards each other)
+        \n\t- Miosis (decrease in pupil size)</string>
+    <string name="pupils_bb">\t- When the pupillary reflex is significantly better than light reflex</string>
+
+    <string name="efferent_title">Efferent System</string>
+    <string name="efferent_a">Opposite to the afferent system, the efferent system is the transmission of information originating from the brain to the end organs of our body. This system directs our body to engage in certain actions. The efferent system of the eyes can be tested through the following 5 examinations. An abnormality in one of these can help narrow down the presenting diagnosis.</string>
+    <string name="efferent_b">Extra ocular movements (EOM)</string>
+    <string name="efferent_c">Sit across from the patient at eye level approximately 1 m back. Have the patient follow a finite target (with both eyes) as you move in a large letter H, move at a set steady pace and observe patients eye movements. Make a note of any deficits in the ROM. Also ask the patient if they see double at any of the extremes of movement.</string>
+    <string name="efferent_d">Figure 7: Extra ocular muscles of the eye</string>
+    <string name="efferent_e">Figure 8: Function of each extra ocular muscle.</string>
+    <string name="efferent_f">Figure 9: Actions of extra ocular muscles and corresponding gaze patterns. This is a normal exam. Any deviations from this figure should be noted.</string>
+    <string name="efferent_g">Cover-uncover\n
+        This test will discern if the patient has any strabismus (when the eyes are not aligned)
+        \n\t- Tropia (eyes are turned that direction all of the time)
+        \n\t- Phoria (eye deviations only present some of the time, \n\tusually when stressed, or when you break fusion of \n\tbinocular vision)
+        Before beginning with the cover/uncover test, observe the patient head on and note if their eyes are fixated on the same target (is one eye higher, lower, inward or outward compared to the other).</string>
+    <string name="efferent_h">TIP: To assess for eye position, have the patient look forward and hold up a light directly between their eyes about 1m away. Then assess for their corneal light reflexes. Look at the reflections of lights in the pupils. Are they located in the same area? Is one eye different than the other. If the light reflection is higher in one eye, it means that the eye is lower, if the light reflection is to the right of the pupil, then the eye is pointed towards the left.</string>
+    <string name="efferent_i">Cover Test\n
+        Have the patient focus on a target in front of them. Sit in front of the patient with a paddle. Cover one eye and observe the other eye for any corrective movement. Cover the other eye and repeat. Make sure to only cover on eye at a time, then remove the paddle for the patient to obtain binocular vision once again before covering the next eye.
+        \n\t- If a patient has an esotropia (eye pointed in),\n\t when their good eye is covered, that eye will move \n\tout to fixate onto a target
+        \n\t- If a patient has an exotropia (eye pointed out), \n\twhen their good eye is covered, that eye will move \n\tin to fixate onto a target\n\n
+        \n\nThen place a series of prisms on the affected eye. Continue to move through prism strengths until they eye does not need to move during the cover test to maintain fixation. The correct prism strength, is the one that results in no eye movement once the unaffected eye is covered.
+        Cover-Uncover test (this will bring out phorias)\n\n\n
+        This test will bring out strabismus that is not present at rest. Sit in front of the patient and have them look straight at a target. Cover one eye with a paddle and then quickly move the paddle across the midline to the other line (so at no point does the patient get to see with both eyes). This allows binocular fusion to be broken. Move the paddle back and forth. If you see the uncovered eye move outward the patient has an esophoria, if you see it move inward, the patient has an exophoria.</string>
+    <string name="efferent_j">If an abnormality is found, place a prism in front of the affected eye and repeat the test. Continue to increase prism strengths until there is no corrective eye movement during the cover-uncover test.</string>
+    <string name="efferent_k">Figure 10: Cover and uncover tests for detection of tropias and phorias.</string>
+    <string name="efferent_l">Refer to the following videos for more information regarding tropias and phorias</string>
+    <string name="efferent_m">https://www.youtube.com/watch?v=dRYBOBSyzAU&amp;index=2&amp;list=PL87F2D79211418CBB</string>
+    <string name="efferent_n">https://www.youtube.com/watch?v=TxEQWtlXtrI&amp;t=1s</string>
+    <string name="efferent_o">Saccades</string>
+    <string name="efferent_p">A saccade is a quick movement of the eyes between 2 or more phases of fixation. This can be tested by sitting at eye level with the patient. The examiner will then place 2 fingers at equal distance from the mid line for the patient to see. They will then ask the patient to look between the two fingers back and forth as fast as they can.</string>
+    <string name="efferent_q">Smooth pursuit</string>
+    <string name="efferent_r">Smoot pursuit is the ability for the eyes to follow a continuously moving object. Sit at eye level with the patient. Then ask the patient to follow a target (finger/pen) while the examiner moves this at a steady pace</string>
+    <string name="efferent_s">TIP- be careful not to move the target too fast, or the person will start having corrective saccades as they attempt to follow a quickly moving object.</string>
+    <string name="efferent_t">Vestibular Ocular Reflex</string>
+    <string name="efferent_u">Allows eyes to maintain fixation with head movement.</string>
+    <string name="efferent_v">Have the patient fixate on a target in front of them. Ask the patient to relax their head allowing you to freely manipulate it. Instruct the patient to maintain fixation while you are moving their head. Move their head (quickly), right and left in the horizontal plane taking note of their eye movements. The eyes should move to maintain fixation on the given target. An abnormal test is when the eyes lose their fixation.</string>
+    <string name="efferent_w">Another way to test for VOR is the caloric reflex test. Cold water or warm water is poured into the ear as the examiner attempts to produce a nystagmus. No head movement is involved during this testing.
+        \n\t- If the examiner pours hot water into the ear
+        \n\t\to Mimics head turn to ipsilateral side
+        \n\t\to Eyes will turn to contralateral ear and have a \n\t\thorizontal nystagmus to the ipsilateral ear
+        \n\t- If the examiner pours cold water into the ear
+        \n\t\to Mimics head turn to contralateral side
+        \n\t\to Eyes will turn to ipsilateral ear
+        \n\t\to Horizontal nystagmus to contralateral ear</string>
+    <string name="efferent_x">Tip: mnemonic to recall the fast direction of the nystagmus\n
+COWS: Cold Opposite, Warm Same
+        \n\t- With cold water the fast phase will be to the \n\topposite ear (not the one the water was poured into)
+        \n\t- With hot water the fast phase will be to the same \n\tear (same one the water was poured into)</string>
+    <string name="efferent_y">Figure 11: Vestibular ocular reflex pathway</string>
+    <string name="efferent_z">Figure 12: Vestibular ocular reflex pathway.</string>
+    <string name="efferent_aa">Nystagmus</string>
+    <string name="efferent_bb">Rhythmic, rapid and involuntary movements of the eyes. The direction of the nystagmus is the “rapid” component
+Observe patient during extra ocular eye movement testing. Are the eyes beating during any of the movements? Do they beat the extremes of movement? Make a note of the rapid and slow components of the nystagmus if noted.</string>
+
+    <string name="iop_title">Intra-ocular pressure (IOP)</string>
+    <string name="iop_a">Intra ocular pressure is one of the main vital signs of an ophthalmology examination. There are several methods used to determine IOP.\n\n
+Applanation tonometry is one of the most accurate methods for measuring IOP. This is a device that is attached to the slit-lamp in many clinics. To test a patients IOP, first ensure that they have tetracaine and fluorescence drops placed in each eye. Have the patient come up to the slit lamp. Ask the patient to focus in the distance. Next change the lamp to blue light, and slowly advance the application tonometer towards the patient. Once the prism is visualized, slowly turn the dial to ensure the prisim look as follows (Figure 13). You want the inside of both semi-circles to just touch. Record the pressure once you recreate the figure.</string>
+    <string name="iop_b">Figure 13: Correct myers pattern on applanation tonometry. Adjust the dial until the myers pattern looks like the above (inner aspects of the semi circles touch each other). Note the pressure on the dial.</string>
+
+
+    <string name="anterior_title">Anterior Segment</string>
+    <string name="anterior_a">Figure 14: Documentation of a systemic anterior and posterior examination assessment.</string>
+    <string name="anterior_b">A systematic approach to the anterior segment exam on slit-lamp is imperative to avoid missing certain findings. Generally, practitioners work from the outside in. Below is a systematic approach to an anterior segment examination.</string>
+    <string name="anterior_c">External Examination</string>
+    <string name="anterior_d">Look at the patient for any gross deficits. Assess for any head turn of the patient.</string>
+    <string name="anterior_e">Lids, Lashes, Lacrimal, Lymph nodes</string>
+    <string name="anterior_f">Look at the external and internal aspects of the lids, test the lacrimal system function</string>
+    <string name="anterior_g">Sclera and Conjunctiva</string>
+    <string name="anterior_h">At this point also assess the tear film.</string>
+    <string name="anterior_i">Cornea</string>
+    <string name="anterior_j">Assess the five layers of the cornea.</string>
+    <string name="anterior_k">Anterior chamber</string>
+    <string name="anterior_l">Cells, flare, hyphema. Assess the angle via gonioscopy or assessment by the van Herick Method.</string>
+    <string name="anterior_m">Iris</string>
+    <string name="anterior_n">Trans illumination defects, color, pigment, neovascularization.</string>
+    <string name="anterior_o">Lens</string>
+    <string name="anterior_p">Clarity, dislocation, cataracts that impair vision, IOL</string>
+    <string name="anterior_q">Vitreous</string>
+    <string name="anterior_r">Hemorrhages, floaters, Weiss ring.</string>
+    <string name="anterior_s">Refer to following video for thorough anterior segment slit lamp examination.
+https://www.youtube.com/watch?v=w9wMJ6job_0</string>
+
+    <string name="posterior_title">Posterior Segment</string>
+    <string name="posterior_a">Slit lamp microscopy can be used to assess the posterior segment of the eye. An additional 60D or 90D lens will be required for this. Additionally, indirect ophthalmoscopy can also be used to assess the posterior structures.</string>
+    <string name="posterior_b">TIP: Make sure you finish the anterior segment and pupillary assessment before dilating the patient. Once the patient is dilated, you no longer can test for pupil function (which is one of the most important parts of a neuro ophthalmological assessment).</string>
+    <string name="posterior_c">The examination of the posterior segment can be broken up into:</string>
+    <string name="posterior_d">Macula</string>
+    <string name="posterior_e">Area surround the fovea, assess for light reflex, the topography of the area (flat or raised)</string>
+    <string name="posterior_f">Vessels</string>
+    <string name="posterior_g">Follow retinal vessels, look for any signs of hemorrhages, AV nicking, attenuation of arterioles and veins. Assess for any signs of CRAVO, or BRVO.</string>
+    <string name="posterior_h">Periphery</string>
+    <string name="posterior_i">Ensure you look at the entire 360 degree view of the retina. Ensure there are no holes, tears, any other malformations that may be causing the patients symptoms. A thorough retinal exam is key to avoid missing important findings</string>
+    <string name="posterior_j">Disk</string>
+    <string name="posterior_k">This is very important in an neuro ophthalmology exam. Locate and examine the disk, note the cup to disk ratio. Note the color and contour of the disk. Look for any signs of papilledema. Signs of optic disc atrophy?</string>
+
+
+    <string name="cranial_title">Cranial Nerves</string>
+    <string name="cranial_a">CN1 Olfactory:</string>
+    <string name="cranial_b">Test patients ability to smell.</string>
+    <string name="cranial_c">CN 2 Optic Nerve:</string>
+    <string name="cranial_d">Tested via visual acuity and pupillary assessment.</string>
+    <string name="cranial_e">CN3 Oculomotor Nerve:</string>
+    <string name="cranial_f">Innervates levator palpebrae superioris, superior rectus, medial rectus, inferior rectus, inferior oblique, sphincter of pupil. This nerve is tested during EOM testing and pupillary testing (constriction of pupil).</string>
+    <string name="cranial_g">CN4 Trochlear Nerve</string>
+    <string name="cranial_h">Innervates superior oblique muscle (depresses, abduct and intorts eyeball).</string>
+    <string name="cranial_i">CN5 Trigeminal Nerve</string>
+    <string name="cranial_j">Sensation over face and innervates the muscles of mastication. Test V1,V2,V3 branch distributions by light touch while patients eyes are closed. Ensure sensation is equal bilaterally.
+To test the muscles of mastication, have the patient bite down and feel for master muscle function on the sides of the jaw.</string>
+    <string name="cranial_k">Figure 15: V1, V2, V3 sensory distributions of the trigeminal nerve.</string>
+    <string name="cranial_l">CN6 Abducens Nerve</string>
+    <string name="cranial_m">Innervates lateral rectus (abducts the eye). This function will be assessed during EOM testing.</string>
+    <string name="cranial_n">CN7 Facial Nerve</string>
+    <string name="cranial_o">The facial nerve innervates the muscles of facial expression, as well as the lacrimal gland. More specifically for our purposes, the facial nerve supplies the orbicularis oculi. This can be checked by the strength of the lid closure.</string>
+    <string name="cranial_p">CN8 Vestibulocochlear Nerve</string>
+    <string name="cranial_q">Test patients hearing bilaterally.</string>
+    <string name="cranial_r">CN9 and CN10 Glossopharyngeal and Vagus Nerve</string>
+    <string name="cranial_s">Ask patient to swallow and assess function. Then ask patient to open their mouth and say “Ahh” and observe for equal rising of the palate.</string>
+    <string name="cranial_t">CN 11 Accessory Nerve</string>
+    <string name="cranial_u">Controls the sternocleidomastoid and trapezius. Have patient shrug their shoulders up against resistance provided by the examiner down. Then have the patient turn the head to the left while the examiner tries to rotate head back to midline by pushing on the left jaw. Test to make sure the patient is able to hold the position against resistance. Repeat for the right side.</string>
+    <string name="cranial_v">CN 12 Hypoglossal Nerve</string>
+    <string name="cranial_w">Provides motor innervation to the tongue. Test by having the patient move their tongue left, right, up and down.</string>
+    <string name="cranial_x">CN 2 Optic Nerve:</string>
+
+    <string name="orbits_title">Orbits</string>
+    <string name="orbits_a">The orbital exam is a very important aspect when assessing a neuro-opthalmological chief complaint. In many cases of diplopia, it is essential to ensure the eyes are in alignment. Using a ruler, assess for the following measurements. Measure the inter-canthal distance (distance between the lateral and medial canthi). Measure the interpupillary distance. This is the distance between the center of the pupils. Note the interpalpebral fissure height of both eyes (this is the space between the upper and lower eye lid). Look for any signs of eyelid retraction (is the sclera visible above the cornea).</string>
+    <string name="orbits_b">Use an exophthalmometer to assess for any exophthalmos or enophthalmos. Note any difference of 2mm or greater. Refer to the video below for a more detailed demonstration.</string>
+    <string name="orbits_c">https://www.youtube.com/watch?v=pmiV5JbXAqI</string>
+    <string name="orbits_d">TIP: with eyes open, the upper lid normally covers top 1.5mm of cornea</string>
+
+    <string name="exam_title">Neuro Examination</string>
+    <string name="exam_a">Some neuro-ophthalmological conditions are initial findings to larger neurological disorders. Ensure that you are vigilant in completing a gross physical exam to rule out any early findings of neurological signs (other than those of the eyes).
+        \n\t- Upper and lower motor and sensation
+        \n\t- Deep tendon reflexes
+        \n\t- Cerebellar signs, gait
+        \n\t- Upper motor neuron lesion signs
+        \n\t\to Up going Babinski
+        \n\t\to Hyper-reflexic
+        \n\t\to No atrophy or fasciculations
+        \n\t\to Spastic/increased muscle tone
+        \n\t\to Pronator drift
+        \n\t- Ensure to rule out any focal neurological deficits (stroke etc…)</string>
+    <string name="exam_b">TIP: Ask the patient for an old photograph to determine if there were any longstanding facial deficits.</string>
+
+    <string name="hello_blank_fragment">asdfsa</string>
+
+
+
+
+    <!-- Values for Unilateral Vision Loss -->
+    <string name="unilateral_a">Unilateral Vision Loss</string>
+
+    <string-array name="greatGrand">
+        <item>Sudden</item>
+        <item>Subacute</item>
+        <item>Chronic</item>
+    </string-array>
+
+    <string-array name="sudden_grand">
+        <item>Ischemic</item>
+        <item>Non-Ischemic</item>
+    </string-array>
+
+    <string-array name="ischemic_parent">
+        <item>Central retinal artery occlusion (CRVO)/Branch retinal artery occlusion (BRVO)</item>
+        <item>Nonarteritic ischemic optic neuropathy – NAION</item>
+        <item>Arteritic ischemic optic neuropathy - Giant Cell Arteritis (GCA)</item>
+    </string-array>
+
+    <string-array name="crvo_child">
+        <item>Present with painless unilateral vision loss (not transient). Form of stroke in the small retinal vessels of the eye. While very rare, this presents in patients with vasculopathic risk factors.</item>
+    </string-array>
+
+    <string-array name="naion_child">
+        <item>Most common form of optic neuropathy.</item>
+        <item>Acute painless, unilateral vision loss (hours to days, could be sudden as well). In elderly >50 years, with vasculopathic risk factors. Vision loss is gradual and peaks at 5 days, then stabilizing.
+Ischemic insult to optic nerve head, visual loss is due to poor perfusion of posterior ciliary arteries which supply the optic nerve.</item>
+    </string-array>
+
+    <string-array name="gca_child">
+        <item>TIP: ALWAYS RULE THIS OUT (MEDICAL EMERGENCY)</item>
+        <item>GCA Risk Factors</item>
+        <item>Ageing – this is the number one risk factor (almost all patients with the disease occur after age 50, peak incidence in 70’s)</item>
+        <item>Ethnicity – scandinavian countries have the highest incidence</item>
+        <item>Gender – female at 3 times the risk to develop GCA than males</item>
+        <item>Previous diagnosis of polymyalgia rheumatica (PMR)</item>
+        <item>\n</item>
+        <item>Ocular symptoms</item>
+        <item>Amaurosis - (painless transient loss of vision caused by decreased blood flow to eye) – monocular</item>
+        <item>Permanent loss of vision – monocular</item>
+        <item>Diplopia (double vision)</item>
+        <item>\n</item>
+        <item>Systemic symptoms</item>
+        <item>Headache – unilateral on the side of vision loss, typically over temple radiating to the jaw</item>
+        <item>Scalp tenderness – patient experiences pain when combing hair on that side of the head</item>
+        <item>Jaw claudication – pain with extensive use of the jaw (when the patient is chewing)</item>
+        <item>B Symptoms – fever, night sweats, unexpected weight loss
+Polymyalgia Rheumatica (PMR) – aching of proximal muscles (quadriceps and shoulders), morning stiffness of shoulder, hip girdle and neck</item>
+        <item>TIP: patients with PMR can manifest with GCA at any point during their illness, including during treatment for PMR</item>
+        <item>Audiovestibular manifestations – sensorineural hearing loss, vertigo, and tinnitus (this is quite rare)</item>
+    </string-array>
+
+    <string-array name="nonischemic_grand">
+        <item>Hypercoaguable disease</item>
+        <item>Cancer</item>
+        <item>Medications</item>
+        <item>Ehlers-Danlos Syndrome (EDS)</item>
+        <item>Trauma</item>
+        <item>Pituitary Apoplexy</item>
+        <item>Leber Hereditary Optic Neuropathy (LHON)</item>
+    </string-array>
+
+</resources>

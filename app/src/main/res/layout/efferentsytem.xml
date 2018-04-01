@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/efferent_title"
+            style="@style/pe_title"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/efferent_a"
+            style="@style/pe_paragraph"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/efferent_b"
+            style="@style/pe_subheading"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:src="@drawable/eye_muscles"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/efferent_d"
+            style="@style/pe_figure"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:src="@drawable/eom"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/efferent_e"
+            style="@style/pe_figure"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:src="@drawable/cardinal_positions_of_gaze"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/efferent_f"
+            style="@style/pe_figure"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/efferent_g"
+            style="@style/pe_paragraph"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/efferent_h"
+            style="@style/pe_tip"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/efferent_i"
+            style="@style/pe_paragraph" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/efferent_j"
+            style="@style/pe_paragraph"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:src="@drawable/cover_uncover_test"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/efferent_k"
+            style="@style/pe_figure"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/efferent_l"
+            style="@style/pe_paragraph"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/efferent_m"
+            style="@style/pe_paragraph"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/efferent_n"
+            style="@style/pe_paragraph"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/efferent_o"
+            style="@style/pe_subheading"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/efferent_p"
+            style="@style/pe_paragraph"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/efferent_q"
+            style="@style/pe_subheading"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/efferent_r"
+            style="@style/pe_paragraph"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/efferent_s"
+            style="@style/pe_tip"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/efferent_t"
+            style="@style/pe_subheading"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/efferent_u"
+            style="@style/pe_paragraph"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/efferent_v"
+            style="@style/pe_paragraph"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/efferent_w"
+            style="@style/pe_paragraph"
+            />
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alignmentMode="alignBounds"
+            android:background="@drawable/border"
+            android:columnCount="3"
+            android:rowCount="4"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_column="0"
+                android:layout_row="0"
+                android:text="" />
+
+            <TextView
+                android:layout_column="1"
+                android:layout_row="0"
+                android:text="Pour Hot Water" />
+
+            <TextView
+                android:layout_column="2"
+                android:layout_row="0"
+                android:text="Pour Cold Water" />
+
+            <TextView
+                android:layout_column="0"
+                android:layout_row="1"
+                android:text="Mimics Head Turn" />
+
+            <TextView
+                android:layout_column="1"
+                android:layout_row="1"
+                android:text="Ipsilateral side" />
+
+            <TextView
+                android:layout_column="2"
+                android:layout_row="1"
+                android:text="Contralateral side" />
+
+            <TextView
+                android:layout_column="0"
+                android:layout_row="2"
+                android:text="Eyes Move" />
+
+            <TextView
+                android:layout_column="1"
+                android:layout_row="2"
+                android:text="Contralateral ear" />
+
+            <TextView
+                android:layout_column="2"
+                android:layout_row="2"
+                android:text="Ipsilateral" />
+
+            <TextView
+                android:layout_column="0"
+                android:layout_row="3"
+                android:text="Horizontal nystagmus" />
+
+            <TextView
+                android:layout_column="1"
+                android:layout_row="3"
+                android:text="Ipsilateral ear" />
+
+            <TextView
+                android:layout_column="2"
+                android:layout_row="3"
+                android:text="Contralateral ear" />
+        </GridLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/efferent_x"
+            style="@style/pe_tip"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:src="@drawable/vestibular_system"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/efferent_y"
+            style="@style/pe_figure"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:src="@drawable/vor"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/efferent_z"
+            style="@style/pe_figure"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/efferent_aa"
+            style="@style/pe_subheading"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/efferent_bb"
+            style="@style/pe_paragraph"
+            />
+
+
+
+    </LinearLayout>
+</ScrollView>
