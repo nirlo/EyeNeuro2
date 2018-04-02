@@ -224,69 +224,155 @@ To test the muscles of mastication, have the patient bite down and feel for mast
     <string name="hello_blank_fragment">asdfsa</string>
 
 
-
-
     <!-- Values for Unilateral Vision Loss -->
     <string name="unilateral_a">Unilateral Vision Loss</string>
+    <string name="unilateral_b">Tempo</string>
+    <string name="unilateral_c">The first and most important things to consider the duration of symptoms. Was the monocular vision loss:</string>
+    <string name="unilateral_d">Sudden</string>
+    <string name="unilateral_e">Subacute</string>
+    <string name="unilateral_f">Chronic</string>
+    <string name="unilateral_h">TIP: Ensure the patient’s visual loss is permanent and not transient. Transient visual loss has a different differential diagnosis.</string>
+    <string name="unilateral_i">Table 1: Common causes of transient vision loss</string>
+    <string name="unilateral_j">There are two very important processes to consider with unilateral vision loss that occurs suddenly.</string>
+    <string name="unilateral_k">Ischemic</string>
+    <string name="unilateral_l">Non-Ischemic</string>
+    <string name="unilateral_m">Vasculopathic Risk Factors?\n
+Assess for a history of: diabetes, hypertension, elevated cholesterol, cardiac disease (MI/CHF), previous history of a stroke or TIA. Does the patient smoke, drink ETOH or have poor dietary habits?</string>
+    <string name="unilateral_n">Central retinal artery occlusion (CRVO)/Branch retinal artery occlusion (BRVO)</string>
+    <string name="unilateral_o">Present with painless unilateral vision loss (not transient). Form of stroke in the small retinal vessels of the eye. While very rare, this presents in patients with vasculopathic risk factors.</string>
+    <string name="unilateral_p">Nonarteritic ischemic optic neuropathy – NAION</string>
+    <string name="unilateral_q">Most common form of optic neuropathy.</string>
+    <string name="unilateral_r">Acute painless, unilateral vision loss (hours to days, could be sudden as well). In elderly >50 years, with vasculopathic risk factors. Vision loss is gradual and peaks at 5 days, then stabilizing.
+Ischemic insult to optic nerve head, visual loss is due to poor perfusion of posterior ciliary arteries which supply the optic nerve.</string>
+    <string name="unilateral_s">Arteritic ischemic optic neuropathy - Giant Cell Arteritis (GCA)</string>
+    <string name="unilateral_t">TIP: ALWAYS RULE THIS OUT (MEDICAL EMERGENCY)</string>
+    <string name="unilateral_u">GCA Risk Factors\n
+        \tAgeing – this is the number one risk factor (almost all \n\tpatients with the disease occur after age 50, \n\tpeak incidence in 70’s)
+        \n\n\tEthnicity – scandinavian countries have the highest \n\tincidence
+        \n\n\tGender – female at 3 times the risk to develop GCA \n\tthan males
+        \n\n\tPrevious diagnosis of polymyalgia rheumatica (PMR)
+        \n\n\nOcular symptoms
+        \n\tAmaurosis - (painless transient loss of vision \n\tcaused by decreased blood flow to eye) – monocular
+        \n\n\tPermanent loss of vision – monocular
+        \n\n\tDiplopia (double vision)
+        \n\n\tSystemic symptoms
+        \n\n\tHeadache – unilateral on the side of vision loss, \n\ttypically over temple radiating to the jaw
+        \n\n\tScalp tenderness – patient experiences pain when \n\tcombing hair on that side of the head
+        \n\n\tJaw claudication – pain with extensive use of the jaw \n\t(when the patient is chewing)
+        \n\n\tB Symptoms – fever, night sweats, unexpected weight \n\tloss
+        \n\n\tPolymyalgia Rheumatica (PMR) – aching of proximal \n\tmuscles (quadriceps and shoulders), morning \n\tstiffness of shoulder, hip girdle and neck</string>
+    <string name="unilateral_v">\t\tTIP: patients with PMR can manifest with GCA at \n\t\tany point during their illness, including during \n\t\ttreatment for PMR</string>
+    <string name="unilateral_w">\tAudiovestibular manifestations – sensorineural hearing \n\tloss, vertigo, and tinnitus (this is quite rare)</string>
+    <string name="unilateral_x">Diagnosis &amp; Treatment</string>
+    <string name="unilateral_y">Sudden</string>
+    <string name="unilateral_z">Sudden</string>
 
-    <string-array name="greatGrand">
-        <item>Sudden</item>
-        <item>Subacute</item>
-        <item>Chronic</item>
-    </string-array>
+    <string name="crao_a">Physical Examination (pertinent findings)</string>
+    <string name="crao_b">Afferent: unilateral vision loss, decreased visual acuity (hand motion, counting fingers), in
+patient with BRVO, vision loss may be restricted to part of visual field (not complete)
+Pupils: RAPD affected side
+Posterior Segment: Cherry red spot, ischemic retinal whitening (CRAO), BRAO presents with
+sectoral retinal whitening. In cases of transient vision loss exam may show normal or cotton
+wool spots, retinal emboli, retinal hemorrhages, retinal whitening, or dilated retinal veins,
+hollenhorst plaque.
+External: old patients, hypertension, carotid bruit, atrial stenosis, BP (hypoperfusion can cause
+ischemia of one eye)</string>
+    <string name="crao_c">Figure 1: cherry red spot seen over macula in patient with CRVO</string>
+    <string name="crao_d">Figure 2: Hollenhorst plaque (a retinal emboli from the internal carotid artery)</string>
+    <string name="crao_e">Investigations:</string>
+    <string name="crao_f">Rare that confirmatory testing needed. In difficult cases fluorescein angiography can be helpful
+to show slowed, decreased blood flow to certain areas.
+ESR/CRP to rule out GCA as cause of symptoms (if patient is elderly).</string>
+    <string name="crao_g">Treatment:</string>
+    <string name="crao_h">CRAO: Ocular Emergency before investigations, consider attempts to restore vision within 2
+        hours.
+        Intra arterial thrombolysis (trials still ongoing in regards to recommendation status for
+        treatment).
+        Conservative treatment:
+        - Ocular massage (pressure to eye)
+        - Anterior chamber paracentesis (drop in IOP with hope of dislodging clot)
+        - Reduce IOP with acetazolamide, mannitol IV, or topical eye drops
+        - Vasodilator medications (nitroglycerin)
+        - Hyperbaric oxygen therapy to help retinal perfusion
+        Surgical revascularization techniques are still under investigation and not routinely used at this
+        time.
+    </string>
+    <string name="crao_i">Prognosis:</string>
+    <string name="crao_j">Diagnosis of etiology: once the patient has stabilized, a thorough workup can be completed in
+        determining the cause of the CRAO/BRVO:
+        - Carotid artery imaging (looking for atherosclerosis, most common cause of CRAO/BRVO)
+        - Exclude GCA (ESR/CRP) – this should be done on presentation
+        - Cardiac evaluation – to rule out cardiac embolism. Holter monitor and Echo
+        - Hypercoaguable testing – patient with suggestive histories (thrombosis, miscarriage, family
+        history of hypercoaguable disorders)
+    </string>
 
-    <string-array name="sudden_grand">
-        <item>Ischemic</item>
-        <item>Non-Ischemic</item>
-    </string-array>
+    <string name="naion_a">Physical Examination (pertinent findings)</string>
+    <string name="naion_b">Afferent: unilateral vision loss, decreased visual acuity, decreased color vision
+Pupils: RAPD on affected side
+Posterior Segment: optic disc swelling, splinter hemorrhages, small optic cup (crowding of disc
+in unaffected eye).
+External: old patients, hypertension</string>
+    <string name="naion_c">Figure 1: Splinter hemmorages on retinal exam of NAION</string>
+    <string name="naion_d">Figure 2: NAION, hyperemic swollen optic nerve head</string>
+    <string name="naion_e">Figure 3: Disc crowing in unaffected eye. Increased likelihood of developing NAION</string>
+    <string name="naion_f">Investigations:</string>
+    <string name="naion_g">Assessed and diagnosed based on clinical history as well as swollen disc from exam.</string>
+    <string name="naion_h">Treatment:</string>
+    <string name="naion_i">Conservative management, ASA, control vasculopathic risk factors (BP, diabetes, smoking).
+Medical conditions associated with NAION (OSA, erectile dysfunction drugs should be
+assessed).</string>
+    <string name="naion_j">Prognosis:</string>
+    <string name="naion_k">After onset, most patients vision may decrease and stabilize over the next few weeks. While
+most patients stabilize, 25-40% may improve on their own. If there is continued deterioration of
+vision, other causes must be explored. Diabetes and worse baseline VA are risk factors for
+recurrence of NAION.</string>
+    <string name="naion_l">Table 1: Causes and risk factors for NAION.</string>
 
-    <string-array name="ischemic_parent">
-        <item>Central retinal artery occlusion (CRVO)/Branch retinal artery occlusion (BRVO)</item>
-        <item>Nonarteritic ischemic optic neuropathy – NAION</item>
-        <item>Arteritic ischemic optic neuropathy - Giant Cell Arteritis (GCA)</item>
-    </string-array>
 
-    <string-array name="crvo_child">
-        <item>Present with painless unilateral vision loss (not transient). Form of stroke in the small retinal vessels of the eye. While very rare, this presents in patients with vasculopathic risk factors.</item>
-    </string-array>
+    <string name="gca_a">Physical Examination (pertinent findings)</string>
+    <string name="gca_b">TIP: eye exam may be entirely normal in GCA</string>
+    <string name="gca_c">Afferent: partial or full decrease in VA – monocular
+Pupils: RAPD on affected side
+Efferent: reduced EOM in patients with diplopia
+Posterior segment: cotton wool spots, in patient with acute vision loss may see swollen disc and
+blurred margins</string>
+    <string name="gca_d">Figure 1: Ischemic optic neuropathy in GCA. Note the swollen disc and blurred margins.</string>
+    <string name="gca_e">External: Diminished pulses, temporal artery tenderness over affected side, bruits, aortic
+regurgitation. Limited ROM of shoulders, neck and hips in patient with PMR.</string>
+    <string name="gca_f">Investigations:</string>
+    <string name="gca_g">In any patient with a concerning history or risk factors for GCA – ESR and CRP should be
+ordered.\n\n
+If high clinical suspicion (elevated markers, or very convincing history), unilateral temporal
+artery biopsy performed on patient.</string>
+    <string name="gca_h">Treatment:</string>
+    <string name="gca_i">High dose steroids. In setting of high clinical suspicion, do not wait for temporal artery biopsy to
+be completed before initiating steroid treatment. The evidence on pathology will be available
+for a month after the initiation of treatment. Ensure to monitor patients for adverse effects
+related to high dose glucocorticoid therapy.\n\n
+In cases with negative workup but high clinical correlation to GCA, begin treatment with high
+dose steroids. Note that alternative diagnosis such as malignancy and infection must be
+excluded in these cases.</string>
+    <string name="gca_j">Prognosis:</string>
+    <string name="gca_k">GCA has variable duration (1-2 years). Long-term prednisone therapy will eventually need to be
+tapered slowly. It is important to start steroid treatment in a timely fashion as it will help to
+preserve vision and prevent any further vision loss. Without treatment, patients may go blind in
+the affected eye.</string>
 
-    <string-array name="naion_child">
-        <item>Most common form of optic neuropathy.</item>
-        <item>Acute painless, unilateral vision loss (hours to days, could be sudden as well). In elderly >50 years, with vasculopathic risk factors. Vision loss is gradual and peaks at 5 days, then stabilizing.
-Ischemic insult to optic nerve head, visual loss is due to poor perfusion of posterior ciliary arteries which supply the optic nerve.</item>
-    </string-array>
 
-    <string-array name="gca_child">
-        <item>TIP: ALWAYS RULE THIS OUT (MEDICAL EMERGENCY)</item>
-        <item>GCA Risk Factors</item>
-        <item>Ageing – this is the number one risk factor (almost all patients with the disease occur after age 50, peak incidence in 70’s)</item>
-        <item>Ethnicity – scandinavian countries have the highest incidence</item>
-        <item>Gender – female at 3 times the risk to develop GCA than males</item>
-        <item>Previous diagnosis of polymyalgia rheumatica (PMR)</item>
-        <item>\n</item>
-        <item>Ocular symptoms</item>
-        <item>Amaurosis - (painless transient loss of vision caused by decreased blood flow to eye) – monocular</item>
-        <item>Permanent loss of vision – monocular</item>
-        <item>Diplopia (double vision)</item>
-        <item>\n</item>
-        <item>Systemic symptoms</item>
-        <item>Headache – unilateral on the side of vision loss, typically over temple radiating to the jaw</item>
-        <item>Scalp tenderness – patient experiences pain when combing hair on that side of the head</item>
-        <item>Jaw claudication – pain with extensive use of the jaw (when the patient is chewing)</item>
-        <item>B Symptoms – fever, night sweats, unexpected weight loss
-Polymyalgia Rheumatica (PMR) – aching of proximal muscles (quadriceps and shoulders), morning stiffness of shoulder, hip girdle and neck</item>
-        <item>TIP: patients with PMR can manifest with GCA at any point during their illness, including during treatment for PMR</item>
-        <item>Audiovestibular manifestations – sensorineural hearing loss, vertigo, and tinnitus (this is quite rare)</item>
-    </string-array>
+    <string name="sudden_ex">Within Seconds</string>
+    <string name="suba_ex">Subacute causes of visual loss commonly overlap with those that cause chronic and acute visual loss. The most common causes of subacute unilateral vision loss are mentioned below.</string>
+    <string name="chronic_ex">In most of these cases, chronic monocular vision loss is most likely due to a compressive aetiology.</string>
 
-    <string-array name="nonischemic_grand">
-        <item>Hypercoaguable disease</item>
-        <item>Cancer</item>
-        <item>Medications</item>
-        <item>Ehlers-Danlos Syndrome (EDS)</item>
-        <item>Trauma</item>
-        <item>Pituitary Apoplexy</item>
-        <item>Leber Hereditary Optic Neuropathy (LHON)</item>
-    </string-array>
+    <string name="non_ischemic">ie other causes</string>
+    <string name="ischemic">Vasculopathic Risk Factors?
+Assess for a history of: diabetes, hypertension, elevated cholesterol, cardiac disease (MI/CHF), previous history of a stroke or TIA. Does the patient smoke, drink ETOH or have poor dietary habits?</string>
+
+    <string name="welcome">Welcome to EyeNeuro. Open the side menu to see full physical examination
+                            and our algorithm for Unilateral Vision Loss</string>
+
+    <string name="title">EyeNeuro</string>
+
+    <string name="explain">Below is a full physical examination broken into pieces and our algorithm for Unilateral Vision Loss</string>
 
 </resources>

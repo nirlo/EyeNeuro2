@@ -2,67 +2,81 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.lock0134.eyeneuro.UnilateralFrag"
+    tools:context="com.example.lock0134.eyeneuro.CRAOFragment"
     android:background="#FFFFFF">
 
+    <!-- TODO: Update blank fragment layout -->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
-
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/unilateral_a"
+            android:text="@string/unilateral_n"
             style="@style/pe_title"/>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/unilateral_b"
+            android:text="@string/crao_a"
             style="@style/pe_subheading"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/unilateral_c"
+            android:text="@string/crao_b"
             style="@style/pe_paragraph"/>
-
-        <Button
-            android:id="@+id/sudden"
+        <ImageView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/unilateral_d"
-            style="@style/clickable"/>
+            android:layout_height="250dp"
+            android:src="@drawable/cherry_red"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/sudden_ex"
-            style="@style/pe_paragraph"/>
-
-        <Button
-            android:id="@+id/subacute"
+            android:text="@string/crao_c"
+            style="@style/pe_figure"/>
+        <ImageView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/unilateral_e"
-            style="@style/clickable"/>
+            android:layout_height="250dp"
+            android:src="@drawable/hollenhorst_plaque"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/suba_ex"
-            style="@style/pe_paragraph"/>
-
-        <Button
-            android:id="@+id/chronic"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="@string/unilateral_f"
-            style="@style/clickable"/>
+            android:text="@string/crao_d"
+            style="@style/pe_figure"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/chronic_ex"
+            android:text="@string/crao_e"
+            style="@style/pe_subheading"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crao_f"
+            style="@style/pe_paragraph"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crao_g"
+            style="@style/pe_subheading"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crao_h"
+            style="@style/pe_paragraph"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crao_i"
+            style="@style/pe_subheading"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/crao_j"
             style="@style/pe_paragraph"/>
 
 
     </LinearLayout>
+
 </ScrollView>

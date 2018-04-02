@@ -1,0 +1,103 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context="com.example.lock0134.eyeneuro.IschemicFragment">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+        <TextView
+            style="@style/pe_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/unilateral_k"/>
+
+        <TextView
+            style="@style/pe_paragraph"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/unilateral_m" />
+
+        <TextView
+            style="@style/pe_subheading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/unilateral_n" />
+
+        <TextView
+            style="@style/pe_paragraph"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/unilateral_o" />
+
+                <Button
+                    android:id="@+id/BRVO"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/unilateral_x"/>
+
+        <TextView
+            style="@style/pe_subheading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/unilateral_p" />
+
+        <TextView
+            style="@style/pe_tip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/unilateral_q" />
+
+        <TextView
+            style="@style/pe_paragraph"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/unilateral_r" />
+
+                <Button
+                    android:id="@+id/NAION"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/unilateral_x"/>
+
+        <TextView
+            style="@style/pe_subheading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/unilateral_s" />
+
+        <TextView
+            style="@style/pe_tip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/unilateral_t"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/unilateral_u"
+            style="@style/pe_paragraph" />
+
+                <TextView
+                    style="@style/pe_tip"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/unilateral_v"/>
+
+                <TextView
+                    style="@style/pe_paragraph"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/unilateral_w"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/GCA"
+                    android:text="@string/unilateral_x"/>
+        </LinearLayout>
+</ScrollView>

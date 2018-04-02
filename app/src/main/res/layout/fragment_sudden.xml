@@ -1,0 +1,67 @@
+<!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.lock0134.eyeneuro.SuddenFragment"
+        android:background="#FFFFFF">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/unilateral_d"
+        style="@style/pe_title"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/unilateral_h"
+        style="@style/pe_tip"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:src="@drawable/transient_vision_loss"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/unilateral_i"
+            style="@style/pe_figure"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/unilateral_j"
+            style="@style/pe_paragraph" />
+
+        <Button
+            android:id="@+id/ischemic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/unilateral_k"
+            style="@style/clickable"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ischemic"
+            style="@style/pe_paragraph"/>
+
+        <Button
+            android:id="@+id/nonischemic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/unilateral_l"
+            style="@style/clickable"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/non_ischemic"
+            style="@style/pe_paragraph"/>
+
+    </LinearLayout>
+    </ScrollView>

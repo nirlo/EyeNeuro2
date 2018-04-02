@@ -3,41 +3,29 @@ package com.example.lock0134.eyeneuro;
 import android.app.FragmentManager;
 import android.app.FragmentTransaction;
 import android.content.Context;
-import android.graphics.Color;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
+import android.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
-import android.widget.ExpandableListView;
-import android.widget.ListView;
-import android.widget.TextView;
-
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Random;
 
 
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link UnilateralFrag.OnFragmentInteractionListener} interface
+ * {@link SuddenFragment.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link UnilateralFrag#newInstance} factory method to
+ * Use the {@link SuddenFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class UnilateralFrag extends Fragment {
+public class SuddenFragment extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
     private static final String ARG_PARAM2 = "param2";
-
     private View view;
-    private Context context;
-    private ListView listView;
 
     // TODO: Rename and change types of parameters
     private String mParam1;
@@ -45,7 +33,7 @@ public class UnilateralFrag extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    public UnilateralFrag() {
+    public SuddenFragment() {
         // Required empty public constructor
     }
 
@@ -55,11 +43,11 @@ public class UnilateralFrag extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment UnilateralFrag.
+     * @return A new instance of fragment SuddenFragment.
      */
     // TODO: Rename and change types and number of parameters
-    public static UnilateralFrag newInstance(String param1, String param2) {
-        UnilateralFrag fragment = new UnilateralFrag();
+    public static SuddenFragment newInstance(String param1, String param2) {
+        SuddenFragment fragment = new SuddenFragment();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -74,14 +62,13 @@ public class UnilateralFrag extends Fragment {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
-
     }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        view = inflater.inflate(R.layout.fragment_unilateral, container, false);
+        view = inflater.inflate(R.layout.fragment_sudden, container, false);
         return view;
     }
 
@@ -89,48 +76,32 @@ public class UnilateralFrag extends Fragment {
     public void onActivityCreated(Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
 
-        Button sudden = view.findViewById(R.id.sudden);
-        sudden.setOnClickListener(new View.OnClickListener() {
+        Button ischemic = view.findViewById(R.id.ischemic);
+        ischemic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                SuddenFragment fragment2=new SuddenFragment();
-                FragmentManager fragmentManager=getActivity().getFragmentManager();
-                FragmentTransaction fragmentTransaction=fragmentManager.beginTransaction();
-                fragmentTransaction.replace(R.id.flContent,fragment2);
+                IschemicFragment fragment2 = new IschemicFragment();
+                FragmentManager fragmentManager = getActivity().getFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.flContent, fragment2);
                 fragmentTransaction.addToBackStack(null);
                 fragmentTransaction.commit();
             }
         });
 
-        Button subacute = view.findViewById(R.id.subacute);
-        subacute.setOnClickListener(new View.OnClickListener() {
+        Button nonischemic = view.findViewById(R.id.nonischemic);
+        nonischemic.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                SubacuteFragment fragment2=new SubacuteFragment();
-                FragmentManager fragmentManager=getActivity().getFragmentManager();
-                FragmentTransaction fragmentTransaction=fragmentManager.beginTransaction();
-                fragmentTransaction.replace(R.id.flContent,fragment2);
+                SubacuteFragment fragment2 = new SubacuteFragment();
+                FragmentManager fragmentManager = getActivity().getFragmentManager();
+                FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
+                fragmentTransaction.replace(R.id.flContent, fragment2);
                 fragmentTransaction.addToBackStack(null);
                 fragmentTransaction.commit();
             }
         });
-
-        Button chronic = view.findViewById(R.id.chronic);
-        chronic.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                ChronicFragment fragment2=new ChronicFragment();
-                FragmentManager fragmentManager=getActivity().getFragmentManager();
-                FragmentTransaction fragmentTransaction=fragmentManager.beginTransaction();
-                fragmentTransaction.replace(R.id.flContent,fragment2);
-                fragmentTransaction.addToBackStack(null);
-                fragmentTransaction.commit();
-            }
-        });
-
     }
-
-
 
     // TODO: Rename method, update argument and hook method into UI event
     public void onButtonPressed(Uri uri) {

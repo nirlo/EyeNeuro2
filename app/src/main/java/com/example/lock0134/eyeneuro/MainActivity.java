@@ -39,7 +39,9 @@ public class MainActivity extends AppCompatActivity {
     ExpandableListView expandableList;
     List<String> listDataHeader;
     HashMap<String, List<String>> listDataChild;
-    Button acuity;
+
+    FragmentManager fragmentManager;
+
     //Icons, use as you want
     @Override
     public void onWindowFocusChanged(boolean hasFocus) {
@@ -63,7 +65,6 @@ public class MainActivity extends AppCompatActivity {
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-        acuity = findViewById(R.id.acuity);
 
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -113,15 +114,9 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        /*acuity.setOnClickListener(new View.OnClickListener() {
-
-            public void onClick(View v) {
-
-                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=wcj2VWIClmk&list=UUZy5vn67Ptq3XNtWOOS5hcw")));
-                Log.i("Video", "Video Playing....");
-
-            }
-        });*/
+        Fragment fragment = new MainFragment();
+        fragmentManager = getSupportFragmentManager();
+        fragmentManager.beginTransaction().replace(R.id.flContent, fragment).commit();
 
     }
 
@@ -148,9 +143,6 @@ public class MainActivity extends AppCompatActivity {
 
         List<String> heading2 = new ArrayList<String>();
         heading2.add("Unilateral Vision Loss");
-        heading2.add("Submenu");
-        heading2.add("Submenu");
-        heading2.add("Submenu");
 
         List<String> heading3 = new ArrayList<String>();
         heading3.add("Submenu");
@@ -241,6 +233,9 @@ public class MainActivity extends AppCompatActivity {
             case "Neuro Examination":
                 fragmentClass = EfferentFrag.class;
                 break;
+            case "Unilateral Vision Loss":
+                fragmentClass = UnilateralFrag.class;
+                break;
             default:
                 fragmentClass = MainFragment.class;
         }
@@ -252,7 +247,7 @@ public class MainActivity extends AppCompatActivity {
         }
 
         // Insert the fragment by replacing any existing fragment
-        FragmentManager fragmentManager = getSupportFragmentManager();
+        fragmentManager = getSupportFragmentManager();
         fragmentManager.beginTransaction().replace(R.id.flContent, fragment).commit();
 
 
